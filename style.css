@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap%27");
+body {
+  font-family: latha;
+  color: white;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.38),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(restoran.png) no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 900px;
+  float: right;
+  border: lpx solid black;
+}
+
+.box ul li {
+  width: 120px;
+  float: left;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.box ul li a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.box ul li:hover {
+  background-color: orangered;
+}
+.box ul li a:hover {
+  color: white;
+}
+
+.box img {
+  width: 700px;
+  height: 500px;
+  padding-left: 200px;
+}
+
+.rx {
+    background-image: url("/slika2.png");
+
+     /* ovdje mijenjas drugi dio stranice, paddinge */
+    padding-top: 400px; 
+    padding-bottom: 500px; 
+    background-size: cover;
+   
+
+}
+
+.rx img {
+
+  padding: 0 0;
+
+}
+
+
+.column h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.column2 {
+
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+
+
+.wd {
+  font-family: "Courgette", cursive;
+  width: 300px;
+  height: 539px;
+  background-color: black;
+  opacity: 0.9;
+  padding: 55px;
+  color: chocolate;
+}
+
+.wd h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 80px;
+}
+
+.wd h4 {
+  color: white;
+}
+
+.wd h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px auto;
+}
+
+.wd h3 {
+  color: white;
+}
